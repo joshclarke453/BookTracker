@@ -1,3 +1,6 @@
 __pycache__/*
 VinylTracker.spec
 build/VinylTracker/*
+BookTracker.exe
+BookTracker.spec
+build/BookTracker/*
