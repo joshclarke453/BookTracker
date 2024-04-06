@@ -5,7 +5,7 @@ from PyQt6.QtCore import Qt
 
 class BookTable(QTableWidget):
     def __init__(self):
-        f = open('./books.json', encoding='utf-8')
+        f = open('./books.json')
         data = json.load(f)
         keys = ["Title", "Author", "Read Date", "Read", "Owned"]
         super().__init__(len(data), len(keys))
@@ -87,17 +87,15 @@ class BookTable(QTableWidget):
     def writeToFile(self):
         objList = []
         for row in range(self.rowCount()):
-            if self.item(row, 2) != None:
-                readDate = self.item(row, 2).text()
             obj = {
                 "Title": self.item(row, 0).text(),
                 "Author": self.item(row, 1).text(),
-                "Read Date": readDate,
+                "Read Date": self.item(row, 2).text(),
                 "Read": self.cellWidget(row, 3).children()[0].itemAtPosition(0,0).widget().isChecked(),
                 "Owned": self.cellWidget(row, 4).children()[0].itemAtPosition(0,0).widget().isChecked()
             }
             objList.append(obj)
-        with open('./books.json', 'w', encoding='utf-8') as f:
+        with open('./books.json', 'w') as f:
             json.dump(objList, f, ensure_ascii=False, indent=4)
 
     def filter(self, filterValue):
