@@ -2,13 +2,13 @@ from PyQt6.QtWidgets import QWidget
 from PyQt6.QtWidgets import QMainWindow, QVBoxLayout, QHBoxLayout
 from SearchBar import SearchBar
 from AddButton import AddButton
-from VinylTable import VinylTable
+from BookTable import BookTable
 
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         
-        self.table = VinylTable()
+        self.table = BookTable()
         self.qvbLayout = QVBoxLayout()
         self.topBarLayout = QHBoxLayout()
         self.searchBar = SearchBar()

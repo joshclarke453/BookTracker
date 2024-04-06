@@ -1,9 +1,9 @@
 from PyQt6.QtWidgets import QPushButton
 from AddDialog import AddDialog
-from VinylTable import VinylTable
+from BookTable import BookTable
 
 class AddButton(QPushButton):
-    def __init__(self, table: VinylTable):
+    def __init__(self, table: BookTable):
         super().__init__()
         self.table = table
         self.setText("Add")

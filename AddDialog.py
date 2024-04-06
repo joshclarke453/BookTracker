@@ -1,9 +1,9 @@
 from PyQt6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QTableWidgetItem
-from VinylTable import VinylTable
+from BookTable import BookTable
 from PyQt6.QtCore import QCoreApplication
 
 class AddDialog(QDialog):
-    def __init__(self, table: VinylTable):
+    def __init__(self, table: BookTable):
         super().__init__()
         self.table = table
         self.setModal(True)
