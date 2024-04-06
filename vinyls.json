@@ -1,0 +1,494 @@
+[
+    {
+        "Title": "What Separates Me From You",
+        "Artist": "A Day To Remember",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Bad Vibrations",
+        "Artist": "A Day To Remember",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Shape Shift With Me",
+        "Artist": "Against Me!",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Transgender Dysphoria Blues",
+        "Artist": "Against Me!",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Desired Effect",
+        "Artist": "Brandon Flowers",
+        "Genre": "Heartland Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Sempiternal",
+        "Artist": "Bring Me The Horizon",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "That's The Spirit",
+        "Artist": "Bring Me The Horizon",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Into The Raging Sea",
+        "Artist": "Broadside",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Thanks But No Thanks",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Death Deserves A Name",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "This Too Wont Pass",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Change Of Plans",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Fail You Again",
+        "Artist": "Can't Swim",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "As You Please",
+        "Artist": "Citizen",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Youth",
+        "Artist": "Citizen",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Young States",
+        "Artist": "Citizen",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Sound Of Perseverance",
+        "Artist": "Death",
+        "Genre": "Death Metal",
+        "Owned": "True"
+    },
+    {
+        "Title": "Scream Bloody Gore",
+        "Artist": "Death",
+        "Genre": "Death Metal",
+        "Owned": "True"
+    },
+    {
+        "Title": "Leprosy",
+        "Artist": "Death",
+        "Genre": "Death Metal",
+        "Owned": "True"
+    },
+    {
+        "Title": "Melee",
+        "Artist": "Dogleg",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "From Under The Cork Tree",
+        "Artist": "Fall Out Boy",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Girl Of My Dreams",
+        "Artist": "Fletcher",
+        "Genre": "Pop",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Albatross",
+        "Artist": "Foxing",
+        "Genre": "Emo",
+        "Owned": "True"
+    },
+    {
+        "Title": "Nella Vita",
+        "Artist": "Grayscale",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "American Idiot",
+        "Artist": "Green Day",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Manic",
+        "Artist": "Halsey",
+        "Genre": "Pop",
+        "Owned": "True"
+    },
+    {
+        "Title": "Ashes Lie Still",
+        "Artist": "Ingested",
+        "Genre": "Deathcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Fear Of The Dark",
+        "Artist": "Iron Maiden",
+        "Genre": "Heavy Metal",
+        "Owned": "True"
+    },
+    {
+        "Title": "Legends Never Die",
+        "Artist": "Juice WRLD",
+        "Genre": "Rap",
+        "Owned": "True"
+    },
+    {
+        "Title": "My Beautiful Dark Twisted Fantasy",
+        "Artist": "Kanye West",
+        "Genre": "Rap",
+        "Owned": "True"
+    },
+    {
+        "Title": "A Tear In The Fabric Of Life",
+        "Artist": "Knocked Loose",
+        "Genre": "Hardcore Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "A Different Shade Of Blue",
+        "Artist": "Knocked Loose",
+        "Genre": "Hardcore Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Copacetic",
+        "Artist": "Knuckle Puck",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Crybaby",
+        "Artist": "Lil Peep",
+        "Genre": "Rap",
+        "Owned": "True"
+    },
+    {
+        "Title": "...And I Return To Nothingness",
+        "Artist": "Lorna Shore",
+        "Genre": "Deathcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Pain Remains",
+        "Artist": "Lorna Shore",
+        "Genre": "Deathcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Tickets To My Downfall",
+        "Artist": "Machine Gun Kelly",
+        "Genre": "Rap",
+        "Owned": "True"
+    },
+    {
+        "Title": "Hope",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Million Masks Of God",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Cope",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "A Black Mile To The Surface",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "I'm Like A Virgin Losing A Child",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Mean Everything To Nothing",
+        "Artist": "Manchester Orchestra",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Black Parade",
+        "Artist": "My Chemical Romance",
+        "Genre": "Emo",
+        "Owned": "True"
+    },
+    {
+        "Title": "Three Cheers For Sweet Revenge",
+        "Artist": "My Chemical Romance",
+        "Genre": "Emo",
+        "Owned": "True"
+    },
+    {
+        "Title": "In The Aeroplane Over The Sea",
+        "Artist": "Neutral Milk Hotel",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Burden Of Faith",
+        "Artist": "Ov Sulfur",
+        "Genre": "Deathcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Composure",
+        "Artist": "Real Friends",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Maybe This Place Is The Same And We're Just Changing",
+        "Artist": "Real Friends",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Home Inside My Head",
+        "Artist": "Real Friends",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Hold The Girl",
+        "Artist": "Rina Sawayama",
+        "Genre": "Pop",
+        "Owned": "True"
+    },
+    {
+        "Title": "Sawayama",
+        "Artist": "Rina Sawayama",
+        "Genre": "Pop",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Sufferer And The Witness",
+        "Artist": "Rise Against",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Siren Song Of The Counter Culture",
+        "Artist": "Rise Against",
+        "Genre": "Punk Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Dog Whistle",
+        "Artist": "Show Me The Body",
+        "Genre": "Hardcore Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Discovering The Waterfront",
+        "Artist": "Silverstein",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "When Broken Is Easily Fixed",
+        "Artist": "Silverstein",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Brave Faces Everyone",
+        "Artist": "Spanish Love Songs",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "No Joy",
+        "Artist": "Spanish Love Songs",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Fear Of Fear",
+        "Artist": "Spiritbox",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Eternal Blue",
+        "Artist": "Spiritbox",
+        "Genre": "Metalcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Tell All Your Friends",
+        "Artist": "Taking Back Sunday",
+        "Genre": "Emo",
+        "Owned": "True"
+    },
+    {
+        "Title": "Lover",
+        "Artist": "Taylor Swift",
+        "Genre": "Pop",
+        "Owned": "True"
+    },
+    {
+        "Title": "Talon Of The Hawk",
+        "Artist": "The Front Bottoms",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "The 59' Sound",
+        "Artist": "The Gaslight Anthem",
+        "Genre": "Heartland Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Get Hurt",
+        "Artist": "The Gaslight Anthem",
+        "Genre": "Heartland Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Sam's Town",
+        "Artist": "The Killers",
+        "Genre": "Heartland Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Battle Born",
+        "Artist": "The Killers",
+        "Genre": "Heartland Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Hello Exile",
+        "Artist": "The Menzingers",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Proper Dose",
+        "Artist": "The Story So Far",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Under Soil And Dirt",
+        "Artist": "The Story So Far",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Story So Far",
+        "Artist": "The Story So Far",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "What You Don't See",
+        "Artist": "The Story So Far",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "The Greatest Generation",
+        "Artist": "The Wonder Years",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Dead Horse X",
+        "Artist": "Touche Amore",
+        "Genre": "Post-Hardcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Parting The Sea Between Brightness And Me",
+        "Artist": "Touche Amore",
+        "Genre": "Post-Hardcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Lament",
+        "Artist": "Touche Amore",
+        "Genre": "Post-Hardcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Is Survived By",
+        "Artist": "Touche Amore",
+        "Genre": "Post-Hardcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "Stage Four",
+        "Artist": "Touche Amore",
+        "Genre": "Post-Hardcore",
+        "Owned": "True"
+    },
+    {
+        "Title": "American Dream",
+        "Artist": "Trophy Eyes",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    },
+    {
+        "Title": "Peripheral Vision",
+        "Artist": "Turnover",
+        "Genre": "Indie Rock",
+        "Owned": "True"
+    },
+    {
+        "Title": "Songs Of",
+        "Artist": "The Story So Far",
+        "Genre": "Pop Punk",
+        "Owned": "True"
+    }
+]
