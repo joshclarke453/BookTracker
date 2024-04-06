@@ -1,4 +1,4 @@
-from PyQt6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QTableWidgetItem
+from PyQt6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QTableWidgetItem, QCheckBox, QWidget, QGridLayout, QLabel
 from BookTable import BookTable
 from PyQt6.QtCore import QCoreApplication
 
@@ -13,21 +13,29 @@ class AddDialog(QDialog):
         self.titleTextbox.setPlaceholderText("Title")
 
         self.artistTextbox = QLineEdit()
-        self.artistTextbox.setPlaceholderText("Artist")
+        self.artistTextbox.setPlaceholderText("Author")
 
-        self.genreTextbox = QLineEdit()
-        self.genreTextbox.setPlaceholderText("Genre")
+        self.readDateTextbox = QLineEdit()
+        self.readDateTextbox.setPlaceholderText("Read Date")
 
-        self.ownedTextbox = QLineEdit()
-        self.ownedTextbox.setPlaceholderText("Owned")
+        self.readCBLabel = QLabel("Read?")
+        self.readCB = QCheckBox()
+        self.readCB.setChecked(False)
+
+        self.ownedCBLabel = QLabel("Owned?")
+        self.ownedCB = QCheckBox()
+        self.ownedCB.setChecked(False)
 
         self.addButton = QPushButton()
         self.addButton.setText("Add")
 
         self.qhBoxLayout.addWidget(self.titleTextbox)
         self.qhBoxLayout.addWidget(self.artistTextbox)
-        self.qhBoxLayout.addWidget(self.genreTextbox)
-        self.qhBoxLayout.addWidget(self.ownedTextbox)
+        self.qhBoxLayout.addWidget(self.readDateTextbox)
+        self.qhBoxLayout.addWidget(self.readCBLabel)
+        self.qhBoxLayout.addWidget(self.readCB)
+        self.qhBoxLayout.addWidget(self.ownedCBLabel)
+        self.qhBoxLayout.addWidget(self.ownedCB)
         self.qhBoxLayout.addWidget(self.addButton)
 
         self.setLayout(self.qhBoxLayout)
@@ -54,13 +62,35 @@ class AddDialog(QDialog):
         self.table.setItem(
             self.table.rowCount() - 1, 
             2, 
-            QTableWidgetItem(self.genreTextbox.text())
+            QTableWidgetItem(self.readDateTextbox.text())
         )
-        self.table.setItem(
+        readCellWidget = QWidget()
+        readCellLayout = QGridLayout()
+        readCb = QCheckBox()
+        readCb.setChecked(self.readCB.isChecked())
+        readCb.stateChanged.connect(self.table.writeToFile)
+        readCellLayout.addWidget(readCb)
+        readCellWidget.setLayout(readCellLayout)
+        self.table.setCellWidget(
             self.table.rowCount() - 1, 
             3, 
-            QTableWidgetItem(self.ownedTextbox.text())
+            readCellWidget
         )
+        
+        ownedCellWidget = QWidget()
+        ownedCellLayout = QGridLayout()
+        ownedCb = QCheckBox()
+        ownedCb.setChecked(self.ownedCB.isChecked())
+        ownedCb.stateChanged.connect(self.table.writeToFile)
+        ownedCellLayout.addWidget(ownedCb)
+        ownedCellWidget.setLayout(ownedCellLayout)
+        self.table.setCellWidget(
+            self.table.rowCount() - 1, 
+            4, 
+            ownedCellWidget
+        )
+               
         self.table.rowAdded()
+        self.table.resizeRowsToContents()
         self.addButton.clicked.disconnect()
         self.close()
